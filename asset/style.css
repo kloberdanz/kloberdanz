@@ -145,3 +145,29 @@ main .central-container button:hover {
     min-width: 100%;
     min-height: 100%;
 }
+/* estilos de blogs */
+.blogs-main{
+    display: grid;
+}
+.blogs-news-container{
+    background-color: #6a3dd3;
+    padding: 0 50px 40px;
+}
+.blogs-main-new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blog-news-img-container{
+    grid-column: 1;
+}
+blogs-news-img-container img{
+
+}
+.blogs-news-info-container{
+    grid-column: 2;
+}
+.blogs-news-info-container p{
+    margin-bottom: 35px;
+    
+}
