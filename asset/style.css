@@ -89,6 +89,15 @@ nav {
     grid-template-columns: 1fr 1fr;
     height: 90px;
 }
+nav:before{
+    background: linear-gradient(to bottom, #20033b, transparent);
+    top: 150px;
+    z-index: 10000;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    content: "";
+}
 nav .nav-logo-container {
     margin-left: 50px;
 }
@@ -152,6 +161,7 @@ main .central-container button:hover {
     display: grid;
 }
 .blogs-news-container{
+    margin-top: 15px;
     background-color: #6a3dd3;
     padding: 0 50px 40px;
 }
@@ -186,6 +196,8 @@ main .central-container button:hover {
     padding: 0 50px 40px;
 }
 .blogs-posts-container h3{
+    font-size: 20px;
+    margin-top: 20px;
     border-bottom: 1px solid #a903fc;
     padding-bottom: 20px;
     text-align: center;
@@ -200,4 +212,26 @@ main .central-container button:hover {
     background-color: #ffffff;
     color: #6a3dd3;
     transition: 1.2s;
+}
+.blogs-posts-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-top: 50px;
+}
+.blogs-posts-container .post-container p{
+    margin-bottom: 35px;
+}
+.blogs-posts-container .post-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #6a3dd3;
+    border-top: 30px solid #2e2542;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(32, 8, 39);
 }
