@@ -268,9 +268,15 @@ footer{
     font-size: 20px;
 }
 .contact-main-container img {
-    max-width: 50px;
+    max-width: 90px;
     margin: 20px;
 }
 .contact-main-container img:hover{
     transform: scale(1.25);
+}
+.contact-left img{
+    margin-left: 50px;    
+}
+.contact-right img{
+    margin-left: 50px;    
 }
