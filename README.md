@@ -1,5 +1,10 @@
 ### Hi there 👋
 
+Thanks for your interest in my Github, my name is Lucas, I use REACT and some CSS frameworks.
+If you have any questions about work and projects you can send me an email Klobermdq@gmail.com.
+I will be happy to read you.
+Thank you again for your time reading me.
+
 <!--
 **kloberdanz/kloberdanz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
